@@ -1,6 +1,6 @@
-# Laravel 6 登入活動
+# Laravel 7 登入活動
 
-隨時都能查看使用者上次登入帳戶的時間。Laravel 6 登入活動主要是用的 [QuickAdminPanel](https://quickadminpanel.com) 生成的，除了一些定制代碼，可依需求彈性改造的工具。
+隨時都能查看使用者上次登入帳戶的時間。Laravel 7 登入活動主要是用的 [QuickAdminPanel](https://quickadminpanel.com) 生成的，除了一些定制代碼，可依需求彈性改造的工具。
 
 ## 使用方式
 - 把整個專案複製一份到你的電腦裡，這裡指的「內容」不是只有檔案，而是指所有整個專案的歷史紀錄、分支、標籤等內容都會複製一份下來。
