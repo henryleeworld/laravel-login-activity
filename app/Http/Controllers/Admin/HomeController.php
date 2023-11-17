@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\User;
+use App\Models\User;
 use LaravelDaily\LaravelCharts\Classes\LaravelChart;
 
 class HomeController
@@ -45,7 +45,7 @@ class HomeController
             'chart_title'        => '每月使用者數量（Users）',
             'chart_type'         => 'line',
             'report_type'        => 'group_by_date',
-            'model'              => 'App\\User',
+            'model'              => 'App\\Models\\User',
             'group_by_field'     => 'last_login_at',
             'group_by_period'    => 'month',
             'aggregate_function' => 'count',
